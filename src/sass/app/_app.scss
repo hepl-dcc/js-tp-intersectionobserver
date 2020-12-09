@@ -1,0 +1,58 @@
+html {
+  height: 200%;
+  min-height: 400px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 3.5em;
+}
+
+#viewport {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: #aaa;
+  font-weight: bold;
+  font-size: 20vh;
+  border: 8px dashed #aaa;
+  padding-top: 40vh;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#target {
+  background-color: #08f;
+  display: inline-block;
+  margin: 100vh auto 100vh;
+  color: white;
+  padding: 4em 3em;
+  position: relative;
+}
+
+#statusBox {
+  position: fixed;
+  top: 0;
+  left: 1em;
+  right: 1em;
+  font-family: monospace;
+  padding: 0.5em;
+  background-color: #ff8;
+  border: 3px solid #cc5;
+  opacity: .9;
+}
+
+#statusBox.yes {
+  background: #8f8;
+  border-color: #5c5;
+}
+
+#statusBox.no {
+  background: #f88;
+  border-color: #c55;
+}
+

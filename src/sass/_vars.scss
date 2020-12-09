@@ -1,0 +1,45 @@
+/*------------------------------------*\
+    VARS.SCSS
+\*------------------------------------*/
+
+
+/*------------------------------------*\
+    $OVERRIDES
+\*------------------------------------*/
+/**
+ * Place any variables that should override inuit.css’ defaults here.
+ */
+$base-font-family: 'Avenir Next', 'Raleway', 'Avenir', 'sans-serif';
+
+$english-quotes: false;
+$responsive-extra: true;
+$spacing-unit: 24px;
+$spacing-unit--small: 24px/2;
+
+/*------------------------------------*\
+    $CUSTOM
+\*------------------------------------*/
+/**
+ * Place any of your own variables that sit on top of inuit.css here.
+ */
+
+main {
+  overflow-x: hidden;
+}
+
+$brand-round: 0.3rem;
+
+
+$gris_1: #f2f2f2;
+
+$gris_2: #e8e8e8;
+$gris_3: rgb(107, 107, 107);
+
+$text: #686868;
+
+$main-color: #f39c12;
+$main-color--must-dark: $main-color;
+//$rouge_1:#35cde8;
+
+
+$orange_1: #EC6043;
